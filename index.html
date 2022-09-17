@@ -1,0 +1,103 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        
+
+            <section class="section1">
+
+                 <div class="contenedor-logo">
+                    <img class="logo-png" src="imagenes/logo2.png" alt="logo principal">
+                </div>
+
+                <div class="contenedor-area">
+                    <textarea class="area" placeholder="Ingresa aquí tu mensaje (sólo minúsculas sin números)"></textarea>
+                </div>
+
+                <div class="contenedor-botones">
+                    <input type="button" class="btn-encriptar" value="Encriptar">
+                    <input type="button" class="btn-desencriptar" value="Desencriptar">
+                </div> 
+
+                <div class="copyright">
+    
+                    <p class="copy-text">Created by PabloPache / Proyecto Alura - Oracle</p>
+                </div>
+
+            </section>
+
+            <section class="section2">
+
+                <div class="contenedor-laptop">
+                    <img class="laptop" src="imagenes/laptop.png" alt="logo principal">
+                </div>
+
+                <div class="contenedor-parrafo">
+                    <p>Tu mensaje encriptado/desencriptado se mostrará en esta sección.</p>
+                </div>
+
+                <div class="contenedor-resultado"> 
+                    <h3>Mensaje encriptado:</h3>
+                    <textarea placeholder="Texto encriptado / desencriptado" class="textoresultado" name="" id="tex"></textarea>
+                    
+                </div>
+                
+
+                <!-- BOTON COPIAR -->
+                <div class="contenedor-copiar">
+                    <button onclick="mostrar()" id="copyButton" class="btn-copiar">
+                        Copiar
+                    </button>
+
+                    
+                </div>
+
+
+
+            </section>
+
+       
+
+    </main>
+
+    <footer>
+        <div class="f1">
+
+        </div>
+        <div class="f2">
+
+        </div>
+        <div class="f3">
+
+        </div>
+        <div class="f4">
+
+        </div>
+      
+    </footer>
+
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>
